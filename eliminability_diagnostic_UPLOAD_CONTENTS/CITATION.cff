@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the accompanying manuscript."
+title: "Eliminability Diagnostic"
+abstract: "A reference implementation of the eliminability discriminant and evaluation dependence magnitude for posture dependent inference under a fixed candidate set."
+authors:
+  - family-names: Loving
+    given-names: Matthew W.
+version: "1.0.0"
+date-released: "2026-04-23"
+license: Apache-2.0
+keywords:
+  - quantum foundations
+  - observer dependence
+  - FRAME formalism
+  - eliminability discriminant
+  - signal processing
+preferred-citation:
+  type: article
+  title: "Evaluation Dependence in Quantum Measurement: A Minimal FRAME Formalism and Eliminability Discriminant"
+  authors:
+    - family-names: Loving
+      given-names: Matthew W.
+  year: 2026
+  journal: "International Journal of Quantum Foundations"

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eliminability-diagnostic"
+version = "1.0.0"
+description = "Eliminability discriminant and evaluation dependence diagnostic for candidate component inference under multiple postures."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Matthew W. Loving" },
+]
+license = { text = "Apache-2.0" }
+keywords = [
+    "quantum foundations",
+    "observer dependence",
+    "FRAME formalism",
+    "eliminability",
+    "signal processing",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "numpy>=1.22",
+    "pandas>=1.5",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "nbformat>=5.0",
+    "nbconvert>=7.0",
+    "ipykernel>=6.0",
+]
+
+[project.scripts]
+eliminability-diagnostic = "eliminability.cli:main"
+
+[tool.setuptools]
+packages = ["eliminability"]
