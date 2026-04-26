@@ -5,7 +5,7 @@ A minimal reproducible demonstration of the eliminability discriminant introduce
 **Matthew W. Loving**
 *Evaluation Dependence in Quantum Measurement: A Minimal FRAME Formalism and Eliminability Discriminant*
 International Journal of Quantum Foundations (2026)
-
+ https://lnkd.in/eBWbUUKB
 ---
 
 ## Overview
